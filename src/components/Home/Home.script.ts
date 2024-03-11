@@ -1,6 +1,6 @@
 import { defineComponent } from 'vue';
 
-type Home = { count: number }
+type Home = { count: number };
 
 export default defineComponent({
     name: 'Home',
@@ -16,5 +16,5 @@ export default defineComponent({
         testFunc() {
             console.log(this.count);
         },
-    }
+    },
 });

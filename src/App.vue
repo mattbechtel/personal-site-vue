@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <h1>Base App</h1>
@@ -30,6 +29,6 @@
     filter: drop-shadow(0 0 2em #42b883aa);
 }
 .router-outlet {
-    border: 2px solid white
+    border: 2px solid white;
 }
 </style>

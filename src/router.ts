@@ -1,4 +1,5 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+
 import Home from './components/Home/Home.vue';
 import Resume from './components/Resume/Resume.vue';
 
@@ -19,8 +20,8 @@ const baseRoutes = [
     },
     {
         path: '/:catchAll(.*)*',
-        redirect: '/home'
-    }
+        redirect: '/home',
+    },
 ];
 
 // concat additional routes here
@@ -28,5 +29,5 @@ const routes = baseRoutes.concat();
 
 export default createRouter({
     history: createWebHistory(),
-    routes: routes
+    routes: routes,
 });

@@ -5,8 +5,6 @@ export default defineComponent({
     props: {
         msg: String,
     },
-    data() {
-    },
-    methods: {
-    }
+    data() {},
+    methods: {},
 });
