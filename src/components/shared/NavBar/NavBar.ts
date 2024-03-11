@@ -1,4 +1,5 @@
-import { defineComponent, PropType } from 'vue';
+import { defineComponent } from 'vue';
+import type { PropType } from 'vue';
 
 export interface Tab {
     title: string;
@@ -9,7 +10,7 @@ export default defineComponent({
     name: 'NavBar',
     props: {
         tabs: {
-            type: PropType<Tab[]>,
+            type: Array as PropType<Tab[]>,
             required: true,
         },
     },

@@ -1,18 +1,4 @@
-<h1>Base App</h1>
-
-<div>
-    <router-link to="/home">Home</router-link>
-</div>
-<div>
-    <router-link to="/resume">Resume</router-link>
-</div>
-<div>
-    <router-link to="/education">Education</router-link>
-</div>
-
-<div>
-    <router-link to="/aboutme">About Me</router-link>
-</div>
+<NavBar :tabs="tabs" />
 
 <div class="layout-container">
     <router-view></router-view>

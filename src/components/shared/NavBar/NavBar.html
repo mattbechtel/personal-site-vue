@@ -1,3 +1,20 @@
-<li v-for="tab in tabs">
-    {{ tab.title }}
-</li>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" v-for="tab in tabs" :key="tab.title">
+            <li class="nav-item active">
+                <router-link class="nav-link" :to="tab.link">{{ tab.title }}</router-link>
+            </li>
+        </ul>
+    </div>
+</nav>
