@@ -1,5 +1,4 @@
-import Home from '@components/Home/Home.vue';
-import Resume from '@components/Resume/Resume.vue';
+import { Home, Resume } from '@components';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const baseRoutes = [
