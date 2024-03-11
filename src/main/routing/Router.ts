@@ -1,4 +1,4 @@
-import { AboutMe, Education, Home, Resume } from '@components';
+import { AboutMe, Education, Home, Projects, Resume } from '@components';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const baseRoutes = [
@@ -8,6 +8,13 @@ const baseRoutes = [
         title: 'Home',
         icon: 'fa-tachometer',
         component: Home,
+    },
+    {
+        path: '/projects',
+        name: 'Projects',
+        title: 'Projects',
+        icon: 'fa-tachometer',
+        component: Projects,
     },
     {
         path: '/resume',

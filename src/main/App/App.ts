@@ -20,6 +20,10 @@ export default defineComponent({
                     title: 'Education',
                     link: '/education',
                 },
+                {
+                    title: 'Projects',
+                    link: '/projects',
+                },
             ],
         };
     },
