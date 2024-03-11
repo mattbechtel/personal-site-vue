@@ -5,7 +5,6 @@ type Home = { count: number };
 export default defineComponent({
     name: 'Home',
     props: {
-        msg: String,
     },
     data(): Home {
         return {

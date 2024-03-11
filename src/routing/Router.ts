@@ -1,4 +1,4 @@
-import { Home, Resume } from '@components';
+import { Home, Resume, Education } from '@components';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const baseRoutes = [
@@ -15,6 +15,13 @@ const baseRoutes = [
         title: 'Resume',
         icon: 'fa-tachometer',
         component: Resume,
+    },
+    {
+        path: '/education',
+        name: 'Education',
+        title: 'Education',
+        icon: 'fa-tachometer',
+        component: Education,
     },
     {
         path: '/:catchAll(.*)*',
