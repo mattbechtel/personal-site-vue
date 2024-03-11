@@ -23,6 +23,7 @@
         "allowJs": true,
         "paths": {
             "@src/*": ["./src/*"],
+            "@main/*": ["./src/main/*"],
             "@components/*": ["./src/components/*"],
             "@components": ["./src/components/index.ts"]
         }
