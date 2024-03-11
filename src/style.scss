@@ -77,3 +77,8 @@ button:focus-visible {
         background-color: #f9f9f9;
     }
 }
+
+// Override bootstrap themes
+$primary: green;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
