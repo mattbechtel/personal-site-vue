@@ -1,4 +1,4 @@
-import { Home, Resume, Education } from '@components';
+import { Education, Home, Resume } from '@components';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const baseRoutes = [

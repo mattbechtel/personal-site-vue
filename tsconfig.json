@@ -20,7 +20,12 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": false,
-        "allowJs": true
+        "allowJs": true,
+        "paths": {
+            "@src/*": ["./src/*"],
+            "@components/*": ["./src/components/*"],
+            "@components": ["./src/components/index.ts"]
+        }
     },
     "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
     "references": [{ "path": "./tsconfig.node.json" }]

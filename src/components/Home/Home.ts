@@ -4,8 +4,7 @@ type Home = { count: number };
 
 export default defineComponent({
     name: 'Home',
-    props: {
-    },
+    props: {},
     data(): Home {
         return {
             count: 0,
