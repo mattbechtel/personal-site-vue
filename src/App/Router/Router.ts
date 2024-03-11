@@ -1,7 +1,6 @@
+import Home from '@components/Home/Home.vue';
+import Resume from '@components/Resume/Resume.vue';
 import { createRouter, createWebHistory } from 'vue-router';
-
-import Home from './components/Home/Home.vue';
-import Resume from './components/Resume/Resume.vue';
 
 const baseRoutes = [
     {
@@ -27,7 +26,7 @@ const baseRoutes = [
 // concat additional routes here
 const routes = baseRoutes.concat();
 
-export default createRouter({
+export const Router = createRouter({
     history: createWebHistory(),
     routes: routes,
 });

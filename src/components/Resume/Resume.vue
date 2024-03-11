@@ -1,3 +1,3 @@
-<script src="./Resume.script.ts" />
-<template src="./Resume.template.html"></template>
-<style scoped src="./Resume.styles.scss"></style>
+<script src="./Resume.ts" />
+<template src="./Resume.html" />
+<style scoped src="./Resume.scss" />
