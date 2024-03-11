@@ -1,10 +1,11 @@
 import { NavBar } from '@components/shared';
+import { NavBarItem } from '@models';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
     name: 'App',
     props: {},
-    data(): { tabs: Tab[] } {
+    data(): { tabs: NavBarItem[] } {
         return {
             tabs: [
                 {
