@@ -2,12 +2,13 @@ import Axios from 'axios-observable';
 import { map, Observable, of } from 'rxjs';
 
 class GithubService {
-    repos: string[];
+    repos: string[] = [];
 
-    constructor() {
-        this.repos = [];
-    }
-
+    /**
+     * Gets a list of repository clone urls for the given Github username
+     * @param username
+     * @returns repository clone_url's as strings
+     */
     getRepositories: (username: string) => Observable<string[]> = (username) => {
         console.log(username);
 
