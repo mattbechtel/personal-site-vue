@@ -27,7 +27,8 @@
             "@components/*": ["./src/components/*"],
             "@components": ["./src/components/index.ts"],
             "@models/*": ["./src/models/*"],
-            "@models": ["./src/models/index.ts"]
+            "@models": ["./src/models/index.ts"],
+            "@services/*": ["./src/services/*"]
         }
     },
     "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],

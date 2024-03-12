@@ -1,3 +1,12 @@
-<div class="container">
+<div>
     <h1>Projects</h1>
+
+    <div>
+        <ul v-if="repos.length">
+            <li v-for="repo in repos" :key="repo">
+                <a :href="repo" target="_blank">{{ repo }}</a>
+            </li>
+        </ul>
+        <p v-else>No repositories found.</p>
+    </div>
 </div>
