@@ -2,7 +2,7 @@ import Axios from 'axios-observable';
 import { map, Observable, of } from 'rxjs';
 
 class GithubService {
-    repos: any[];
+    repos: string[];
 
     constructor() {
         this.repos = [];
