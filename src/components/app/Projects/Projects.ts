@@ -12,10 +12,8 @@ export default defineComponent({
     name: 'Projects',
     props: {},
     data(): ProjectsData {
-        const username: string = 'mattbechtel';
-
         return {
-            username,
+            username: 'mattbechtel',
             repos: [],
             subscriptions: [],
         };
